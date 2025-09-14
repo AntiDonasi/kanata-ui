@@ -1,0 +1,21 @@
+name: Frontend Cache Configuration
+
+# Konfigurasi ini dapat digunakan sebagai referensi untuk mengoptimalkan caching dalam workflow CI/CD
+
+cache-dependencies: &cache-dependencies
+  - name: Cache node modules
+    uses: actions/cache@v3
+    with:
+      path: ~/.npm
+      key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      restore-keys: |
+        ${{ runner.os }}-node-
+
+cache-build: &cache-build
+  - name: Cache build output
+    uses: actions/cache@v3
+    with:
+      path: dist
+      key: ${{ runner.os }}-build-${{ github.sha }}
+      restore-keys: |
+        ${{ runner.os }}-build-

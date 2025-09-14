@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+/* Set Electrolize as default font */
+* {
+  font-family: 'Electrolize', sans-serif;
+}
+
+body {
+  font-family: 'Electrolize', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Permanent Marker untuk heading dan teks tebal */
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Font weight utilities untuk Electrolize */
+.font-thin { font-weight: 100; }
+.font-extralight { font-weight: 200; }
+.font-light { font-weight: 300; }
+.font-normal { font-weight: 400; }
+.font-medium { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.font-extrabold { font-weight: 800; }
+.font-black { font-weight: 900; }
+
+/* Heading styles dengan Permanent Marker */
+h1, h2, .heading {
+  font-family: 'Permanent Marker', cursive;
+}
+h1 span, h2 span, h3 span, .heading span {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Brand text dengan Permanent Marker */
+.brand-text {
+  font-family: 'Permanent Marker', cursive;
+}
+
+/* Custom styles */
+.text-gradient {
+  background: linear-gradient(135deg, #10b981, #059669);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes blob {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Permanent Marker text shadow untuk efek lebih menarik */
+.font-marker {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
