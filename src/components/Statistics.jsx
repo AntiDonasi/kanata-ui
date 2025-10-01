@@ -76,7 +76,7 @@ const Statistics = () => {
                 DIPERCAYA OLEH <span className="text-green-500">RIBUAN</span> PENGGUNA
               </h2>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Kanata Bot telah membantu ribuan pengguna WhatsApp dengan berbagai fitur canggih dan layanan terpercaya.
+                Kachina Bot telah membantu ribuan pengguna WhatsApp dengan berbagai fitur canggih dan layanan terpercaya.
               </p>
             </div>
             
@@ -151,7 +151,7 @@ const Statistics = () => {
                       <i className="fas fa-robot text-green-500"></i>
                     </div>
                     <div>
-                      <h3 className="font-semibold">Kanata Bot</h3>
+                      <h3 className="font-semibold">Kachina Bot</h3>
                       <p className="text-xs opacity-90">online</p>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ const Statistics = () => {
                 <div className="bg-gray-100 p-4 h-64 overflow-hidden">
                   <div className="space-y-3">
                     <div className="bg-white rounded-lg p-3 max-w-xs shadow-sm">
-                      <p className="text-sm">🎉 Selamat datang di Kanata Bot!</p>
+                      <p className="text-sm">🎉 Selamat datang di Kachina Bot!</p>
                     </div>
                     <div className="bg-white rounded-lg p-3 max-w-xs shadow-sm">
                       <p className="text-sm">📊 Statistik hari ini:</p>

@@ -11,43 +11,50 @@ export const features: Feature[] = [
   {
     id: '1',
     icon: 'fas fa-robot',
-    title: 'AI Assistant',
-    description: 'Chatbot cerdas dengan AI untuk menjawab pertanyaan dan membantu berbagai kebutuhan',
+    title: 'AI Chat (Gemini/Llama/Qwen)',
+    description: 'Chat dengan AI: Gemini, Llama (Groq), Qwen. Dukungan Vision, TTS, dan Speech-to-Text',
     color: 'bg-blue-500'
   },
   {
     id: '2',
     icon: 'fas fa-download',
     title: 'Media Downloader',
-    description: 'Download video, audio, dan gambar dari berbagai platform seperti YouTube, TikTok, Instagram',
+    description: 'YouTube (audio/video kualitas), TikTok (tanpa watermark, audio), Threads, Mediafire, Spotify',
     color: 'bg-green-500'
   },
   {
     id: '3',
     icon: 'fas fa-shield-alt',
     title: 'Group Moderation',
-    description: 'Moderasi grup otomatis dengan fitur anti-spam, welcome message, dan manajemen member',
+    description: 'Welcome/Leave, anti-link, anti-toxic, tagall, promote/demote/kick, info & settings grup',
     color: 'bg-purple-500'
   },
   {
     id: '4',
     icon: 'fas fa-magic',
     title: 'Sticker Maker',
-    description: 'Buat sticker WhatsApp dari foto atau gambar dengan mudah dan cepat',
+    description: 'Sticker dari gambar/video dengan kualitas tinggi. Konversi sticker→image juga tersedia',
     color: 'bg-pink-500'
   },
   {
     id: '5',
     icon: 'fas fa-volume-up',
     title: 'Text to Speech',
-    description: 'Konversi teks menjadi suara dengan berbagai pilihan bahasa dan aksen',
+    description: 'TTS AI (Groq) dengan kualitas suara natural. Dukungan banyak bahasa',
     color: 'bg-indigo-500'
   },
   {
     id: '6',
-    icon: 'fas fa-qrcode',
-    title: 'QR Generator',
-    description: 'Generate QR code untuk teks, URL, atau informasi lainnya dengan instant',
+    icon: 'fas fa-camera',
+    title: 'Website Screenshot',
+    description: 'Tangkap screenshot website (desktop/tablet/mobile) via perintah ssweb',
     color: 'bg-yellow-500'
+  },
+  {
+    id: '7',
+    icon: 'fas fa-image',
+    title: 'Image Upscale',
+    description: 'Perbesar resolusi gambar hingga 4x dan tingkatkan kualitas secara otomatis',
+    color: 'bg-teal-500'
   }
 ];

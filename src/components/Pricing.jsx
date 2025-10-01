@@ -6,10 +6,10 @@ const Pricing = () => {
       name: 'Free',
       price: 0,
       features: [
-        '10 Download per hari',
-        'Basic AI Chat',
-        'Sticker Maker',
-        'Text to Speech'
+        '10 download/hari',
+        'AI chat dasar (Gemini)',
+        'Sticker maker',
+        'Text-to-Speech (limit)'
       ],
       featured: false,
       buttonText: 'Mulai Gratis'
@@ -18,11 +18,11 @@ const Pricing = () => {
       name: 'Premium',
       price: 15000,
       features: [
-        'Unlimited Download',
-        'Advanced AI Chat',
-        'Group Moderation',
-        'All Tools Access',
-        'Priority Support'
+        'Unlimited download',
+        'AI chat lanjutan (Llama/Qwen)',
+        'Group moderation penuh',
+        'Akses semua tools',
+        'Prioritas support'
       ],
       featured: true,
       buttonText: 'Upgrade Premium'
@@ -31,11 +31,11 @@ const Pricing = () => {
       name: 'VIP',
       price: 25000,
       features: [
-        'All Premium Features',
-        'Custom Commands',
-        'Multi-Group Support',
-        'API Access',
-        '24/7 Support'
+        'Semua fitur Premium',
+        'Custom commands',
+        'Multi-group support',
+        'API access (opsional)',
+        '24/7 support'
       ],
       featured: false,
       buttonText: 'Jadi VIP'
@@ -50,7 +50,7 @@ const Pricing = () => {
             PILIH PAKET ANDA
           </h2>
           <p className="text-xl text-green-200 max-w-2xl mx-auto">
-            Nikmati fitur bot WhatsApp Kanata sesuai kebutuhan Anda
+            Nikmati fitur Kachina Bot sesuai kebutuhan Anda
           </p>
         </div>
         

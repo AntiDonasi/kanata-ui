@@ -33,20 +33,20 @@ const Tutorial = () => {
   const gettingStartedSteps = [
     {
       title: "Tambahkan Bot ke Kontak",
-      description: "Simpan nomor bot Kanata ke kontak WhatsApp Anda",
+      description: "Simpan nomor Kachina Bot ke kontak WhatsApp Anda",
       command: "+62 812-3456-7890",
       details: [
         "Buka WhatsApp di ponsel Anda",
         "Tambahkan nomor bot ke kontak",
-        "Berikan nama 'Kanata Bot' untuk mudah diingat"
+        "Berikan nama 'Kachina Bot' untuk mudah diingat"
       ]
     },
     {
       title: "Kirim Pesan Pertama",
-      description: "Mulai percakapan dengan mengirim pesan ke bot",
+      description: "Mulai percakapan dengan mengirim pesan ke Kachina Bot",
       command: "/start",
       details: [
-        "Buka chat dengan Kanata Bot",
+        "Buka chat dengan Kachina Bot",
         "Ketik /start untuk memulai",
         "Bot akan merespons dengan menu utama"
       ]
@@ -184,7 +184,7 @@ const Tutorial = () => {
         return (
           <div className="space-y-8">
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Cara Memulai dengan Kanata Bot</h3>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Cara Memulai dengan Kachina Bot</h3>
               <p className="text-gray-600">Ikuti langkah-langkah sederhana ini untuk mulai menggunakan bot</p>
             </div>
             
@@ -406,10 +406,10 @@ const Tutorial = () => {
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
             Panduan Lengkap
-            <span className="text-green-600"> Kanata Bot</span>
+            <span className="text-green-600"> Kachina Bot</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Pelajari cara menggunakan semua fitur Kanata Bot dengan panduan step-by-step yang mudah diikuti
+            Pelajari cara menggunakan semua fitur Kachina Bot dengan panduan step-by-step yang mudah diikuti
           </p>
         </div>
 
@@ -442,13 +442,13 @@ const Tutorial = () => {
         {/* Quick Start CTA */}
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl p-8 text-white">
-            <h3 className="text-2xl font-bold mb-4">Siap Mencoba Kanata Bot?</h3>
+            <h3 className="text-2xl font-bold mb-4">Siap Mencoba Kachina Bot?</h3>
             <p className="text-green-100 mb-6 max-w-2xl mx-auto">
               Mulai gunakan bot sekarang juga dan rasakan kemudahan semua fiturnya!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/6281234567890?text=/start"
+                href="https://wa.me/628157695152?text=/start"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 bg-white text-green-600 px-8 py-4 rounded-xl font-semibold hover:bg-gray-100 transition-colors"

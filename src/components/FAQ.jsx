@@ -5,28 +5,28 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: 'Bagaimana cara menggunakan bot Kanata?',
-      answer: 'Cukup tambahkan nomor bot ke kontak WhatsApp Anda, lalu kirim pesan ".menu" untuk melihat semua fitur yang tersedia.'
+      question: 'Bagaimana cara menggunakan Kachina Bot?',
+      answer: 'Simpan nomor bot dan mulai chat di WhatsApp. Ketik .menu untuk melihat fitur seperti AI, downloader (YouTube, TikTok, Spotify), sticker, tools, dan moderasi grup.'
     },
     {
-      question: 'Apakah bot Kanata gratis?',
-      answer: 'Ya! Kami menyediakan paket gratis dengan fitur dasar. Untuk fitur premium seperti unlimited download dan group moderation, tersedia paket berbayar mulai Rp15.000/bulan.'
+      question: 'Apakah Kachina Bot gratis?',
+      answer: 'Ada mode gratis dan premium. Premium memberi limit lebih besar, download tak terbatas, prioritas, serta fitur eksklusif mulai Rp15.000/bulan.'
     },
     {
       question: 'Platform apa saja yang didukung untuk download?',
-      answer: 'Bot Kanata mendukung download dari YouTube, TikTok, Instagram, Twitter, Facebook, Spotify, dan masih banyak platform lainnya.'
+      answer: 'Kachina mendukung YouTube (audio/video), TikTok (video/audio), Threads, Mediafire, Spotify, dan lainnya.'
     },
     {
       question: 'Bisakah bot digunakan di grup WhatsApp?',
-      answer: 'Tentu saja! Bot Kanata memiliki fitur khusus untuk moderasi grup seperti welcome message, anti-spam, dan manajemen member otomatis.'
+      answer: 'Ya. Kachina memiliki welcome/leave, anti-link, anti-toxic, tagall, promote/demote/kick, info grup, dan pengaturan grup lainnya.'
     },
     {
       question: 'Apakah data saya aman?',
-      answer: 'Keamanan data adalah prioritas utama kami. Bot Kanata tidak menyimpan pesan pribadi dan hanya memproses perintah yang diberikan.'
+      answer: 'Keamanan data prioritas kami. Kachina tidak menyimpan pesan pribadi dan hanya memproses perintah yang diberikan.'
     },
     {
       question: 'Bagaimana cara upgrade ke premium?',
-      answer: 'Anda bisa upgrade melalui bot dengan mengirim pesan ".premium" atau menghubungi admin melalui kontak yang tersedia di website.'
+      answer: 'Gunakan .premium atau cek menu premium di bot untuk pemesanan, status, dan pembayaran.'
     }
   ]
 
@@ -42,7 +42,7 @@ const FAQ = () => {
             PERTANYAAN <span className="text-green-500">UMUM</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Temukan jawaban untuk pertanyaan yang sering ditanyakan seputar bot Kanata
+            Temukan jawaban untuk pertanyaan yang sering ditanyakan seputar Kachina Bot
           </p>
         </div>
         

@@ -7,13 +7,13 @@ const Footer = () => {
         {/* Main Footer Content */}
         <div className="py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Kanata Bot Info */}
+            {/* Kachina Bot Info */}
             <div className="lg:col-span-1">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-blue-500 rounded-full flex items-center justify-center mr-3">
                   <i className="fab fa-whatsapp text-xl text-white"></i>
                 </div>
-                <h3 className="text-2xl font-bold text-white">Kanata Bot</h3>
+                <h3 className="text-2xl font-bold text-white">Kachina Bot</h3>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
                 Bot WhatsApp terdepan dengan teknologi Baileys. Solusi lengkap untuk automasi, hiburan, dan produktivitas grup WhatsApp Anda.
@@ -153,23 +153,29 @@ const Footer = () => {
                   <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <i className="fab fa-whatsapp text-sm"></i>
                   </div>
-                  <span className="text-sm">+62 812-3456-7890</span>
+                  <span className="text-sm">+62 815-7695-152</span>
+                </div>
+                <div className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors duration-300 group">
+                  <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <i className="fas fa-user-tie text-sm"></i>
+                  </div>
+                  <span className="text-sm">Owner: +62 895-3955-90009</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors duration-300 group">
                   <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <i className="fas fa-envelope text-sm"></i>
                   </div>
-                  <span className="text-sm">support@kanatabot.com</span>
+                  <span className="text-sm">support@antidonasi.web.id</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300 hover:text-purple-400 transition-colors duration-300 group">
                   <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <i className="fas fa-globe text-sm"></i>
                   </div>
-                  <span className="text-sm">kanatabot.com</span>
+                  <span className="text-sm">antidonasi.web.id</span>
                 </div>
                 <div className="mt-6">
                   <a 
-                    href="#" 
+                    href="https://wa.me/628157695152" 
                     className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-green-500 to-blue-500 text-white text-sm font-medium rounded-lg hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105"
                   >
                     <i className="fab fa-whatsapp mr-2"></i>
@@ -185,7 +191,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              &copy; 2024 Kanata Bot. Powered by Baileys WhatsApp API. All rights reserved.
+              &copy; 2024 Kachina Bot. Powered by Baileys WhatsApp API. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors duration-300">

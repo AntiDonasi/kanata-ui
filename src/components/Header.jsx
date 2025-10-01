@@ -77,7 +77,7 @@ const Header = () => {
               </div>
               <div>
                 <h1 className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${isScrolled ? 'text-gray-900' : 'text-white drop-shadow-lg'
-                  }`}>Kanata Bot</h1>
+                  }`}>Kachina Bot</h1>
                 <p className="text-xs sm:text-sm text-green-400 font-medium drop-shadow-md">WhatsApp Assistant</p>
               </div>
             </Link>
@@ -133,7 +133,7 @@ const Header = () => {
             {/* CTA Button */}
             <div className="hidden lg:block">
               <a
-                href="https://wa.me/6281234567890?text=/start"
+                href="https://wa.me/628157695152?text=/start"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`inline-flex items-center space-x-2 px-6 py-3 rounded-xl font-semibold transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl ${isScrolled
@@ -213,7 +213,7 @@ const Header = () => {
             
             <div className="pt-4 pb-8">
               <a
-                href="https://wa.me/6281234567890?text=/start"
+                href="https://wa.me/628157695152?text=/start"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-3 bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-4 rounded-xl font-semibold hover:from-green-700 hover:to-emerald-700 transition-all duration-300 w-full shadow-lg border border-green-500/20"

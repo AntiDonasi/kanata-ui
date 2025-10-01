@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              KANATA <span className="text-green-300">BOT</span><br/>
+              KACHINA <span className="text-green-300">BOT</span><br/>
               WHATSAPP<br/>
               <span className="text-green-300">ASSISTANT</span>
             </h1>
@@ -22,10 +22,10 @@ const Hero = () => {
               Bot WhatsApp multifungsi dengan AI, downloader, moderasi grup, dan berbagai tools untuk memudahkan aktivitas digital Anda.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a href="https://wa.me/628157695152?text=/start" target="_blank" rel="noopener" className="btn-primary bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
                 <i className="fab fa-whatsapp mr-2"></i>
                 Mulai Chat Bot
-              </button>
+              </a>
               <button className="btn-secondary border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-full font-semibold transition-all duration-300">
                 <i className="fas fa-play mr-2"></i> Lihat Demo
               </button>
@@ -69,7 +69,7 @@ const Hero = () => {
                   <i className="fas fa-robot text-white text-xl"></i>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-800">Kanata Bot</h3>
+                  <h3 className="font-semibold text-gray-800">Kachina Bot</h3>
                   <p className="text-sm text-green-500">● Online</p>
                 </div>
               </div>
@@ -77,7 +77,7 @@ const Hero = () => {
               {/* Chat Messages */}
               <div className="space-y-3">
                 <div className="bg-gray-100 rounded-2xl rounded-tl-sm p-3 max-w-xs">
-                  <p className="text-sm text-gray-700">Halo! Saya Kanata Bot 🤖</p>
+                  <p className="text-sm text-gray-700">Halo! Saya Kachina Bot 🤖</p>
                   <p className="text-xs text-gray-500 mt-1">10:30</p>
                 </div>
                 <div className="bg-gray-100 rounded-2xl rounded-tl-sm p-3 max-w-xs">

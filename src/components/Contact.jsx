@@ -59,7 +59,7 @@ const Contact = () => {
             HUBUNGI <span className="text-green-500">KAMI</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Butuh bantuan atau ingin berkolaborasi? Tim support Kanata Bot siap membantu Anda 24/7.
+            Butuh bantuan atau ingin berkolaborasi? Tim support Kachina Bot siap membantu Anda 24/7.
           </p>
         </div>
         
@@ -76,7 +76,16 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900">WhatsApp</h4>
-                    <p className="text-gray-600">+62 812-3456-7890</p>
+                    <p className="text-gray-600">+62 815-7695-152</p>
+                  </div>
+                </div>
+                <div className="flex items-center space-x-4 p-4 rounded-xl bg-emerald-50 hover:bg-emerald-100 transition-colors duration-300">
+                  <div className="flex-shrink-0 w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center">
+                    <i className="fas fa-user-tie text-white text-lg"></i>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gray-900">Owner</h4>
+                    <p className="text-gray-600">+62 895-3955-90009</p>
                   </div>
                 </div>
                 
@@ -86,7 +95,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-900">Telegram</h4>
-                    <p className="text-gray-600">@kanatabot_support</p>
+                  <p className="text-gray-600">@kachinabot_support</p>
                   </div>
                 </div>
                 
@@ -95,8 +104,8 @@ const Contact = () => {
                     <i className="fas fa-envelope text-white text-lg"></i>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-900">Email</h4>
-                    <p className="text-gray-600">support@kanatabot.com</p>
+                  <h4 className="text-lg font-semibold text-gray-900">Email</h4>
+                  <p className="text-gray-600">support@antidonasi.web.id</p>
                   </div>
                 </div>
               </div>
@@ -104,10 +113,14 @@ const Contact = () => {
               {/* Quick Actions */}
               <div className="mt-8 space-y-3">
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Aksi Cepat</h4>
-                <button className="w-full bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                <a href="https://wa.me/628157695152" target="_blank" rel="noopener" className="w-full bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
                   <i className="fab fa-whatsapp mr-2"></i>
                   Chat Langsung dengan Bot
-                </button>
+                </a>
+                <a href="https://wa.me/62895395590009" target="_blank" rel="noopener" className="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 px-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
+                  <i className="fas fa-user-tie mr-2"></i>
+                  Hubungi Owner
+                </a>
                 <button className="w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-xl font-semibold transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
                   <i className="fas fa-book mr-2"></i>
                   Lihat Tutorial
@@ -120,7 +133,7 @@ const Contact = () => {
               <div className="flex items-center justify-between">
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Status Bot</h4>
-                  <p className="text-gray-600">Kanata Bot sedang online</p>
+                  <p className="text-gray-600">Kachina Bot sedang online</p>
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
@@ -184,7 +197,7 @@ const Contact = () => {
                 <textarea
                   id="message"
                   name="message"
-                  placeholder="Ceritakan kebutuhan atau pertanyaan Anda tentang bot Kanata..."
+                  placeholder="Ceritakan kebutuhan atau pertanyaan Anda tentang Kachina Bot..."
                   rows="6"
                   value={formData.message}
                   onChange={handleChange}
